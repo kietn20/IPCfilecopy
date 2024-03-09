@@ -1,0 +1,15 @@
+In this project, you will design and implement a file-copying program named filecopy.c that utilizes
+ordinary pipes for inter-process communication. The program will be passed two parameters: the name of
+the file to be copied and the name of the destination file. It will create a pipe (please find more info of pipe
+for interprocess communication by yourself), write the contents of the source file to the pipe, and then have
+a child process read from the pipe and write to the destination file.
+
+Inter-process communication (IPC) is a fundamental concept in operating system design, allowing
+processes to exchange data and synchronize their actions. Pipes are one of the simplest forms of IPC,
+enabling communication between processes running on the same system. Pipes have a read end and a write
+end, allowing one process to write data into the pipe while another process reads from it.
+
+1
+2
+3
+test
